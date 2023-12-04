@@ -11,11 +11,10 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * @author gusu
- * @date 2021/6/26
+ * @author jiaying
+ * @date 2023/2/16
  */
 public class SampleServer extends RpcNode {
-
     public Map foo(String s) {
         return new HashMap(1);
     }

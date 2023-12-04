@@ -1,12 +1,8 @@
-package common;/*
- * common.Cons.java
- * Copyright 2021 Razertory, all rights reserved.
- * GUSU PROPRIETARY/CONFIDENTIAL, any form of usage is subject to approval.
- */
+package common;
 
 /**
- * @author gusu
- * @date 2021/6/26
+ * @author jiayying
+ * @date 2023/6/26
  */
 public class Cons {
 

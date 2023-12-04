@@ -51,7 +51,6 @@ public class RpcNode {
     }
 
     /**
-     * 启动这个 RPC 的网络服务
      *
      * @throws Exception
      */

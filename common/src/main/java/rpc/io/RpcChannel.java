@@ -12,8 +12,8 @@ import lombok.Data;
 import rpc.common.RpcRequest;
 
 /**
- * @author razertory
- * @date 2021/1/6
+ * @author jiaying
+ * @date 2023/4/8
  */
 @Data
 public class RpcChannel extends ChannelInboundHandlerAdapter implements Callable {

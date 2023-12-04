@@ -12,8 +12,8 @@ import java.util.List;
 import java.util.concurrent.CountDownLatch;
 
 /**
- * @author gusu
- * @date 2022/7/28
+ * @author jiaying
+ * @date 2023/4/5
  */
 public class Distributed {
 

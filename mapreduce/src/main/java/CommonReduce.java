@@ -12,8 +12,8 @@ import util.FileUtil;
 import util.LogUtil;
 
 /**
- * @author gusu
- * @date 2022/7/23
+ * @author jiaying
+ * @date 2023/4/29
  */
 public class CommonReduce {
 

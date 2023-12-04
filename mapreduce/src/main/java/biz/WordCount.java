@@ -10,8 +10,8 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 /**
- * @author gusu
- * @date 2022/7/28
+ * @author jiaying
+ * @date 2023/3/28
  */
 public class WordCount {
 

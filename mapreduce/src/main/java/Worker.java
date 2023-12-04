@@ -9,8 +9,8 @@ import rpc.io.RpcNode;
 import util.LogUtil;
 
 /**
- * @author razertory
- * @date 2021/1/1
+ * @author jiaying
+ * @date 2023/4/12
  */
 public class Worker extends RpcNode {
 

@@ -13,8 +13,8 @@ import util.LogUtil;
 
 
 /**
- * @author razertory
- * @date 2021/1/1
+ * @author jiaying
+ * @date 2023/5/1
  */
 public class Master extends RpcNode {
 

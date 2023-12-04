@@ -24,17 +24,17 @@ public class RpcDecoder extends ByteToMessageDecoder {
     protected void decode(ChannelHandlerContext channelHandlerContext, ByteBuf byteBuf,
         List<Object> list) throws Exception {
 
-        // 读取传送过来的消息的长度
+        // data length
         int dataLength = byteBuf.readInt();
-        // 我们读到的消息体长度为 0，这是不应该出现的情况，这里出现这情况，关闭连接。
+        // close connection
         if (dataLength < 0) {
             channelHandlerContext.close();
         }
 
-        //取出数据
+        //read data
         byte[] bytes = new byte[dataLength];
-        byteBuf.readBytes(bytes);  //
-        //将 byte 数据转化为我们需要的对象。
+        byteBuf.readBytes(bytes);
+        //reform
         Object o = rpcSerializer.deserialize(clazz, bytes);
         list.add(o);
     }

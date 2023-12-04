@@ -7,8 +7,8 @@ import io.netty.handler.codec.MessageToByteEncoder;
 import java.io.IOException;
 
 /**
- * @author razertory
- * @date 2021/1/6
+ * @author jiaying
+ * @date 2023/3/5
  */
 public class RpcEncoder extends MessageToByteEncoder {
 
@@ -26,18 +26,15 @@ public class RpcEncoder extends MessageToByteEncoder {
 
         if (clazz != null && clazz.isInstance(o)) {
 
-            //将对象序列化成二进制数组
             byte[] bytes = rpcSerializer.serialize(o);
-            //获取长度
             byteBuf.writeInt(bytes.length);
-            //写入 buffer 中
             byteBuf.writeBytes(bytes);
         }
     }
 
     /**
-     * @author razertory
-     * @date 2021/1/6
+     * @author jiaying
+     * @date 2023/3/5
      */
     public static class JSONRpcSerializer implements RpcSerializer {
 

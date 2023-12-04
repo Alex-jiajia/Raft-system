@@ -8,8 +8,8 @@ import util.FileUtil;
 import util.LogUtil;
 
 /**
- * @author gusu
- * @date 2022/7/23
+ * @author jiaying
+ * @date 2023/4/22
  */
 public class CommonMap {
 
@@ -28,7 +28,6 @@ public class CommonMap {
     }
 
     /**
-     * 选择文件
      *
      * @param key
      * @return
@@ -38,7 +37,6 @@ public class CommonMap {
     }
 
     /**
-     * 中间文件路径
      *
      * @param workerId
      * @param key
